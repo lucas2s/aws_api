@@ -1,0 +1,24 @@
+{
+  "name": "aws_api",
+  "version": "1.0.0",
+  "description": "Utilization AWS API",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "ts-node-dev --watch --respawn --transpile-only src/index.ts",
+    "test": "tsc && jest ./dist"
+  },
+  "keywords": [],
+  "author": "Lucas Silva Sartori",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^27.4.0",
+    "aws-sdk": "^2.1077.0",
+    "dotenv": "^16.0.0",
+    "jest": "^27.5.1",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "ts-node-dev": "^1.1.8"
+  }
+}
